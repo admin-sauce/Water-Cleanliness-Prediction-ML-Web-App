@@ -3,8 +3,10 @@ import pickle
 import numpy as np
 from werkzeug.exceptions import BadRequestKeyError
 import os
+from flask_frozen import Freezer
 
 app = Flask(__name__)
+freezer = Freezer(app)
 
 month_dict = {
     "April": 0,
@@ -57,6 +59,7 @@ def predict(dataset):
 @app.route("/")
 def index():
     return render_template("index.html")
+
 
 @app.route("/predict", methods=["POST"])
 def get_prediction():
@@ -125,4 +128,4 @@ def get_prediction():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    freezer.run(debug=True)
