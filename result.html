@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Water Cleanliness Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body style="background-image: url('{{ url_for('static', filename='ddd.png') }}')">
+    <div style="text-align:left;"><img style="width: 35em;" src="{{ url_for('static', filename='wail.png') }}"></div>
+</body>
+
+<body>
+    <h1>Prediction Result</h1>
+    <p>The predicted water cleanliness is: {{ prediction }}</p>
+</body>
+</html>
