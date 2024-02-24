@@ -20,6 +20,7 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
+* [Explanation Video](#explanation-video)
 * [License](#license)
 * [Authors](#authors)
 
@@ -88,7 +89,7 @@ To get a local copy up and running, follow these simple steps:
 
 ## Explanation Video
 
-https://drive.google.com/drive/folders/1mcgQyFuRxAPIkdwgVX2_D3FBRa_vC7no
+https://youtu.be/pQSLLXEFiBE
 
 ## License
 
@@ -96,7 +97,7 @@ Distributed under the GNU General Public License v3.0 License. See [LICENSE](htt
 
 ## Authors
 
-* [Abishek ](https://github.com/MLAbishek)
-* [Rishon Jos Anton](https://github.com/RishonAnton)
-* [Thomas Albert Iwin](https://github.com/admin-sauce)
+[Abishek ](https://github.com/MLAbishek) </br>
+[Rishon Jos Anton](https://github.com/RishonAnton) </br>
+[Thomas Albert Iwin](https://github.com/admin-sauce)
 
